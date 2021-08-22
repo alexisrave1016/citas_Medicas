@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.registro{
+    background-image: url(https://infolocal.comfenalcoantioquia.com/media/com_jbusinessdirectory/pictures/companies/703/sura-1497021290.jpg);
+background-repeat: no-repeat;
+background-position: top;
+background-attachment:fixed;
+height: 100vh;
+}
+
+.formulario_registro{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    color: #103b42;
+    align-items: center;
+    padding-top: 100px;
+    margin: auto;
+    font-size: 20px;
+    flex-direction: column;
+    
+    
+}
+
+#enviarDatos{
+    width: 230px;
+    background-color: aqua;
+    border-radius: 5px;
+  box-sizing: border-box 10px 20px green;
+}
