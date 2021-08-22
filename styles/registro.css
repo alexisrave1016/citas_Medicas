@@ -28,9 +28,12 @@ height: 100vh;
     
 }
 
-#enviarDatos{
+/* #enviarDatos1{
     width: 230px;
     background-color: aqua;
     border-radius: 5px;
   box-sizing: border-box 10px 20px green;
-}
+} */
+
+#enviarDatos1{
+    width: 230px;}

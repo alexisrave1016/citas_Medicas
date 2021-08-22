@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/registro.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="registro">
+    <div class="formulario_registro">
+        <form action="/my-handling-form-page" method="post">
+        
+            <ul>
+             <li>
+               <label for="name">Nombre Completo:</label>
+               <input type="text" id="name" name="nombre_usuario">
+             </li>
+             <li>
+               <label for="mail">Correo electrónico:</label>
+               <input type="email" id="mail" name="user_mail">
+             </li>
+             <li>
+               <label for="msg" type="number" id="cel">Telefono de contacto:</label>
+               <input type="number" id="contacto" >
+             </li>
+             <li>
+                <label for="name">Contraseña</label>
+                <input type="password" id="contrasena" >
+              </li>
+              <li>
+                <label for="mail">Verificacion de contraseña</label>
+                <input type="password" id="contrasena_ver" >
+              </li>
+              <li>
+                <label for="msg">Fecha de nacimiento:</label>
+                <input type="date" id="fecha" name="fecha" class="form-control" autoComplete="off" />
+              </li>
+            </ul>
+        </form>
+        <button type="submit" class="btn btn-primary" id="enviarDatos1">
+            enviar
+        </button>
+    </div>
+</div>
+    <script src="/scripts/registrarseDetallado.js" type="module"></script>
+</body>
+</html>
